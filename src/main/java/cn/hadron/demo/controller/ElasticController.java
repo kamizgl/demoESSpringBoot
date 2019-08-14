@@ -145,6 +145,14 @@ public class ElasticController {
         PositionBean positionBean=new PositionBean("2","shanghaiHuanqiugang","31.239346,121.424219");
 
         positionService.save(positionBean);
-
+//        double da=121.423177d;
+//        double xiao=31.239423d;
+//        for (int i = 0; i <1000 ; i++) {
+//            xiao=xiao+ 0.00001 ;
+//            da = da + 0.0001d;
+//            PositionBean positionBean=new PositionBean(i,"shanghaiHuanqiugang",xiao  + 0.001+"", da + 0.0001d+"");
+//            positionService.save(positionBean);
+//
+//        }
     }
 }
